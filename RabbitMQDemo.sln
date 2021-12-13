@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQDemo", "RabbitMQDemo\RabbitMQDemo.csproj", "{6EFF3FCD-C21B-4FD5-865E-58436F503E89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{EDBAA296-0C18-4E98-9E08-8A557F599B0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{960B4FC0-9562-4234-8439-C2059F0EC732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EFF3FCD-C21B-4FD5-865E-58436F503E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFF3FCD-C21B-4FD5-865E-58436F503E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFF3FCD-C21B-4FD5-865E-58436F503E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFF3FCD-C21B-4FD5-865E-58436F503E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBAA296-0C18-4E98-9E08-8A557F599B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAA296-0C18-4E98-9E08-8A557F599B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBAA296-0C18-4E98-9E08-8A557F599B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBAA296-0C18-4E98-9E08-8A557F599B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960B4FC0-9562-4234-8439-C2059F0EC732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960B4FC0-9562-4234-8439-C2059F0EC732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960B4FC0-9562-4234-8439-C2059F0EC732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960B4FC0-9562-4234-8439-C2059F0EC732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93D5298E-2576-439D-AF0E-AB5C9AF8B81A}
+	EndGlobalSection
+EndGlobal
